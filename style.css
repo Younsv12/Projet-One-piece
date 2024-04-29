@@ -1,0 +1,52 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+   gap: 10%;
+ }
+ 
+ nav{
+    background: mediumaquamarine;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .avatar{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: black solid 3px;
+ }
+ 
+ li{
+    list-style: none;
+ 
+ }
+ a{
+    text-decoration: none;
+ }
+ ul{ 
+    display: flex;
+    gap:25px ;
+    text-align: center;
+    align-items: center;
+ 
+ }
+ nav{
+    display: flex;
+    justify-content: space-around;
+ }
+ .logo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+ 
+ }
+ 
+ .panier{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ 
